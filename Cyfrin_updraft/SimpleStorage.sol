@@ -8,7 +8,8 @@ contract SimpleStorage {
     
 
     // function to store the fav no.
-    function store(uint256 _favoriteNumber) public{
+    // updated: virtual there is override in another contract
+    function store(uint256 _favoriteNumber) public virtual{
         favoriteNumber = _favoriteNumber;
     }
  
